@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MonSitePro | Votre partenaire de confiance</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #172033;
+      line-height: 1.6;
+      background: #ffffff;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 22px 8%;
+      background: #ffffff;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #155eef;
+    }
+
+    nav a {
+      color: #172033;
+      text-decoration: none;
+      margin-left: 22px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: #eff5ff;
+    }
+
+    .hero h1 {
+      font-size: clamp(32px, 5vw, 52px);
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      max-width: 620px;
+      margin: 0 auto 30px;
+      color: #526078;
+      font-size: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 26px;
+      border-radius: 8px;
+      background: #155eef;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section.services {
+      padding: 70px 8%;
+      text-align: center;
+    }
+
+    .services h2 {
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+
+    .intro {
+      color: #647087;
+      margin-bottom: 35px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      padding: 28px 22px;
+      border: 1px solid #e0e6ef;
+      border-radius: 14px;
+      text-align: left;
+    }
+
+    .card h3 {
+      margin-bottom: 12px;
+      color: #155eef;
+    }
+
+    .card p {
+      color: #526078;
+    }
+
+    .contact {
+      text-align: center;
+      padding: 65px 20px;
+      background: #172033;
+      color: white;
+    }
+
+    .contact p {
+      margin: 12px 0 24px;
+      color: #d6dceb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 22px;
+      font-size: 14px;
+      color: #647087;
+    }
+
+    @media (max-width: 700px) {
+      header {
+        flex-direction: column;
+        gap: 14px;
+      }
+
+      nav a {
+        margin: 0 7px;
+      }
+
+      .hero {
+        padding: 70px 20px;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">MonSitePro</div>
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <h1>Développons votre réussite ensemble</h1>
+      <p>
+        Découvrez nos services professionnels et trouvons
+        les meilleures solutions pour vos besoins.
+      </p>
+      <a class="btn" href="#contact">Parlons de votre projet</a>
+    </section>
+
+    <section class="services" id="services">
+      <h2>Nos services</h2>
+      <p class="intro">
+        Des solutions adaptées à vos objectifs.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Conseil</h3>
+          <p>
+            Nous vous accompagnons pour définir vos objectifs
+            et choisir les bonnes solutions.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Services professionnels</h3>
+          <p>
+            Des prestations pensées pour répondre à vos besoins
+            avec sérieux et efficacité.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Accompagnement</h3>
+          <p>
+            Nous avançons avec vous à chaque étape de votre projet.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Parlons de votre projet</h2>
+      <p>
+        Vous avez une idée ? Contactez-nous pour en discuter.
+      </p>
+     
+<a class="button"
+   href="https://wa.me/33780960569?text=Bonjour%20MonSite%20Pro%2C%20je%20souhaite%20cr%C3%A9er%20un%20site%20web."
+   target="_blank"
+   rel="noopener noreferrer">
+  Nous contacter sur WhatsApp
+</a>
+
+<a class="button" href="mailto:coulibalymous234@gmail.com">
+  Nous contacter par e-mail
+</a>
+
+    </section>
+  </main>
+
+  <footer>
+    © 2026 MonSitePro — Tous droits réservés.
+  </footer>
+
+</body>
+</html>
